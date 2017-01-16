@@ -31,16 +31,18 @@
 
 			<section class="container" id="main">
 				
-					<div class="panel operational">
-						All Systems operational.
+					
+					<div class="panel major outage">
+						Major outage on Minecraft-Hosting.
 					</div>
+					
 				
 
 				<h4>Systems</h4>
 				<ul class="systems">
 					
 					<li>
-						Minecraft-Hosting <span class="status operational">operational</span>
+						Minecraft-Hosting <span class="status major outage">major outage</span>
 					</li>
 					
 					<li>
@@ -61,105 +63,18 @@
 				
 					
 					<div class="incident">
-						<span class="date">2016-09-16 14:35:09 UTC</span>
+						<span class="date">2017-01-16 21:19:55 UTC</span>
 
 						
-							<span class="label operational float-right">resolved</span>
+							<span class="label major outage float-right">major outage</span>
 						
 						
 							<span class="label system float-right">Minecraft-Hosting</span>
 						
 						<hr/>
 
-						<span class="title">General problems connecting to SMP servers</span>
-						<p>Every server (even those at other hosts!) is having problems connecting. This is not something we can fix, as the issue is probably Mojang's fault.
-
-NL:
-Elke server heeft nu een probleem met verbinden, ook die van andere hosts. Wij kunnen hier niks aan doen, dit is een fout bij Mojang,</p>
-						
-					</div>
-					
-					<div class="incident">
-						<span class="date">2016-08-21 21:18:56 UTC</span>
-
-						
-							<span class="label operational float-right">resolved</span>
-						
-						
-							<span class="label system float-right">Minecraft-Hosting</span>
-						
-						<hr/>
-
-						<span class="title">Networking Difficulties</span>
-						<p>A lot of our nodes in Roubaix are having network- difficulties. We are closely monitoring this. Seeing as this is an issue on multiple racks, we expect this to be an error on OVH's end. As so, we expect it to work by the morning.</p>
-						
-							<p><em>Update 2016-08-21 22:01:30</em><br/>
-							More than 30 minutes have elapsed without problems, so we are de-escalating this to "Degraded Performance".
-							</p>
-						
-							<p><em>Update 2016-08-22 00:39:21</em><br/>
-							Nothing for the last 3 hours. Marking as "resolved".
-							</p>
-						
-							<p><em>Update 2016-08-22 10:54:08</em><br/>
-							Again, having networking issue's connected to those of last night. Reopening this issue.
-							</p>
-						
-					</div>
-					
-					<div class="incident">
-						<span class="date">2016-08-18 11:52:39 UTC</span>
-
-						
-							<span class="label operational float-right">resolved</span>
-						
-						
-							<span class="label system float-right">Panel</span>
-						
-						<hr/>
-
-						<span class="title">SFTP not connecting for the H4-node</span>
-						<p>The SFTP for the H4 container is not connecting. This is a known. issue.</p>
-						
-							<p><em>Update 2016-08-18 11:53:56</em><br/>
-							Unfortunatly, we have to restart the H4 container. This will happen on 2016/08/18 between 20:00 and 23:00 PM.
-							</p>
-						
-							<p><em>Update 2016-08-18 11:59:56</em><br/>
-							The File Manager still works on the H4 container, so that can be used in the meantime.
-							</p>
-						
-							<p><em>Update 2016-08-18 23:37:17</em><br/>
-							Container restarted, SFTP server back up and running!
-							</p>
-						
-					</div>
-					
-					<div class="incident">
-						<span class="date">2016-08-15 17:57:29 UTC</span>
-
-						
-							<span class="label operational float-right">resolved</span>
-						
-						
-							<span class="label system float-right">Minecraft-Hosting</span>
-						
-						<hr/>
-
-						<span class="title">Crash detection on the H4 node.</span>
-						<p>Probleem *seems* to be with the intergration of the MC-Query-protocol.</p>
-						
-							<p><em>Update 2016-08-15 18:01:08</em><br/>
-							Possible fix found. Going to restart the container.
-							</p>
-						
-							<p><em>Update 2016-08-15 18:09:20</em><br/>
-							Restarting container...
-							</p>
-						
-							<p><em>Update 2016-08-15 18:13:36</em><br/>
-							Daemon has been restarted. Issue has been resolved.
-							</p>
+						<span class="title">Major outage across all PRISM servers</span>
+						<p>Because of a DDOS attack of three botnets across our 7 main machines, we are currently facing major outages across all PRISM networks. Service will be resumed with our backup-servers when the threat is neutralised.</p>
 						
 					</div>
 					
